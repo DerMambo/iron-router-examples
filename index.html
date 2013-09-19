@@ -1,0 +1,32 @@
+<head>
+  <title>iron_router_tutorial</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="/goodBye">Good Bye</a>
+    <a href="/posts">Posts</a>
+  </nav>
+  <h1>My Homepage</h1>
+  <!-- Iron Router Render Helper -->
+  {{ renderRouter }}
+</body>
+
+<template name="home">
+  Welcome to the first part of the Iron-Router Tutorial
+</template>
+
+<template name="posts">
+  <h2>A List Of Blog Posts</h2>
+  <ul>
+    <li>Post #1</li>
+    <li>Post #2</li>
+    <li>Post #3</li>
+    <li>Post ...</li>
+  </ul>
+</template>
+
+<template name="goodBye">
+  Good Bye!
+</template>
