@@ -1,13 +1,9 @@
+Router.configure({
+  autoRender: false
+});
 
 // The Iron-Router Route Configuration
 Router.map(function() {
-  // configurated route with
-  // name 'home' that matches
-  // specific route '/' and automatically renders
-  // template 'home'
-  this.route('home', {
-    path: '/'
-  });
 
   // simple route with
   // name 'posts' that automatically matches
